@@ -8,11 +8,17 @@ This package presents an autonomous system for singulating and picking thin prof
 - [**Universal Robot UR10**](https://www.universal-robots.com/products/ur10-robot/)
 - [**Robotiq 140mm Adaptive parallel-jaw gripper**](https://robotiq.com/products/2f85-140-adaptive-robot-gripper)
 - [**RealSense Camera SR300**](https://github.com/IntelRealSense/realsense-ros)
-- [**Extendable Finger**] for realizing finger length differences during digging.
-- [**Extendable Palm**] developed in another package: Dexterous ungrasping. See the [link](https://github.com/HKUST-RML/shallow_depth_insertion) for detailed explanation.
-
+- [**Extendable Finger**] for realizing finger length differences during digging
+- **Extendable Palm** developed in another package: Shallow-Depth Insertion (Dexterous Ungrasping). See the [link](https://github.com/HKUST-RML/shallow_depth_insertion) for detailed explanation
 
 ### 2.2 Software
+This implementation requires the following dependencies (tested on Ubuntu 16.04 LTS):
+- [**ROS Kinetic**](http://wiki.ros.org/ROS/Installation)
+- [**Urx**](https://github.com/SintefManufacturing/python-urx) for UR10 robot control
+- [**Mask R-CNN**](https://github.com/matterport/Mask_RCNN) for instance segmentation (also see the dependencies therein), with model trained for [Go stone](https://hkustconnect-my.sharepoint.com/:u:/g/personal/ztong_connect_ust_hk/Eb7z0WBHf8BOgLfkGKQf1wsBcZgVAwpUTJP7Q9u0y8h5Kw?e=15cEsA)
+- [**OpenCV 3.4.1**](https://pypi.org/project/opencv-python/3.4.1.15/) and [**Open3D 0.7.0.0](http://www.open3d.org/docs/0.7.0/getting_started.html)
+
+**Note**: The online compiler [**Jupyter Notebook**](https://jupyter.org/) is needed to run our program.
 
 ## 3. A Quick Start
 
