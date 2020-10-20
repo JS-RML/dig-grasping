@@ -29,7 +29,10 @@ git clone https://github.com/HKUST-RML/Dig-grasping.git
 cd ..
 catkin_make
 ```
-
+Activate robotiq 2-fingered gripper:
+```
+roslaunch dig-grasping gripper.launch sim:=true
+```
 
 ## Maintenance 
 For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), and Yu Hin Ng (yhngad@connect.ust.hk).
