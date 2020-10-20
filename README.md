@@ -41,10 +41,14 @@ git clone https://github.com/HKUST-RML/Dig-grasping.git
 cd ..
 catkin_make
 ```
-Activate robotiq 2-fingered gripper:
+Activate robotiq 2-fingered gripper and RealSense Camera in two different terminals:
 ```
 roslaunch dig-grasping gripper.launch sim:=true
+roslaunch realsense2_camera rs_camera.launch align_depth:=true 
 ```
+Open another terminal, start Jupyter Notebook via ```jupyter notebook```, and run ```instance_segmentation.ipynb``` for instance segmentation and object pose detection.
+
+For picking Go stones, start another Jupyter Notebook, and run ```Go_stone_pick.ipynb```.
 
 ## Maintenance 
 For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), and Yu Hin Ng (yhngad@connect.ust.hk).
