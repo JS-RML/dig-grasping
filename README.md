@@ -63,6 +63,7 @@ Open a terminal,
 cd scripts/dexterous_ungrasping/script
 ```
 For Go stone: ```python Go_stone_place.py```
+
 For capsule: ```python Capsule_place.py```
 
 ## Maintenance 
