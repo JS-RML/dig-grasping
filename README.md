@@ -46,6 +46,7 @@ Activate robotiq 2-fingered gripper and RealSense Camera in two different termin
 roslaunch dig-grasping gripper.launch sim:=true
 roslaunch realsense2_camera rs_camera.launch align_depth:=true 
 ```
+### Picking
 Open another terminal, start Jupyter Notebook via ```jupyter notebook```, and run ```instance_segmentation.ipynb``` for instance segmentation and object pose detection.
 
 For picking Go stones, start another Jupyter Notebook, and run ```Go_stone_pick.ipynb```.
