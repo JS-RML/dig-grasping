@@ -54,7 +54,7 @@ roslaunch realsense2_camera rs_camera.launch align_depth:=true
 2. Start another Jupyter Notebook in a new terminal, and run ```Go_stone_pick.ipynb```.
 
 **For picking capsules**
-1. run ```instance_segmentation_capsule.ipynb```
+1. run ```instance_segmentation_capsules.ipynb```
 2. run ```Capsule_pick.ipynb```
 
 ## Maintenance 
