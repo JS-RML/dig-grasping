@@ -57,5 +57,13 @@ roslaunch realsense2_camera rs_camera.launch align_depth:=true
 1. run ```instance_segmentation_capsules.ipynb```
 2. run ```Capsule_pick.ipynb```
 
+### Placing
+Open a terminal, 
+```
+cd script/Dexterous_ungrasping/script
+```
+For Go stone: ```python Go_stone_placing.py```
+For capsule: ```python Capsule_placing.py```
+
 ## Maintenance 
 For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), and Yu Hin Ng (yhngad@connect.ust.hk).
