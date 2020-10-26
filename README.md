@@ -47,9 +47,15 @@ roslaunch dig-grasping gripper.launch sim:=true
 roslaunch realsense2_camera rs_camera.launch align_depth:=true 
 ```
 ### Picking
-Open another terminal, start Jupyter Notebook via ```jupyter notebook```, and run ```instance_segmentation.ipynb``` for instance segmentation and object pose detection.
+**For picking Go stones**
 
-For picking Go stones, start another Jupyter Notebook, and run ```Go_stone_pick.ipynb```.
+1. Open another terminal, start Jupyter Notebook via ```jupyter notebook```, and run ```instance_segmentation.ipynb``` for instance segmentation and object pose detection.
+
+2. Start another Jupyter Notebook in a new terminal, and run ```Go_stone_pick.ipynb```.
+
+**For picking capsules**
+1. run ```instance_segmentation_capsule.ipynb```
+2. run ```Capsule_pick.ipynb```
 
 ## Maintenance 
 For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), and Yu Hin Ng (yhngad@connect.ust.hk).
