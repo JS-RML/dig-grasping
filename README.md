@@ -60,10 +60,10 @@ roslaunch realsense2_camera rs_camera.launch align_depth:=true
 ### Placing
 Open a terminal, 
 ```
-cd script/Dexterous_ungrasping/script
+cd scripts/dexterous_ungrasping/script
 ```
-For Go stone: ```python Go_stone_placing.py```
-For capsule: ```python Capsule_placing.py```
+For Go stone: ```python Go_stone_place.py```
+For capsule: ```python Capsule_place.py```
 
 ## Maintenance 
 For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), and Yu Hin Ng (yhngad@connect.ust.hk).
