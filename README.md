@@ -14,7 +14,7 @@ This package presents an autonomous system for singulating and picking thin prof
 <img src="files/Github_capsule_pick_place.gif" width="360" height="202"> 
 </p>
 
-**Full Video** can be seen from this [link](https://youtu.be/dwZhAJ4iFk4). 
+**Full Video** can be seen from this [link](https://youtu.be/ea26lKvtYIo). 
 
 ## 2. Prerequisites
 ### 2.1 Hardware
