@@ -58,6 +58,10 @@ roslaunch realsense2_camera rs_camera.launch align_depth:=true
 1. run ```instance_segmentation_capsules.ipynb```
 2. run ```Capsule_pick.ipynb```
 
+**For picking domino blocks**
+1. run ```Domino_detection.ipynb```
+2. run ```Capsule_pick.ipynb```
+
 ### Placing
 Open a terminal, 
 ```
