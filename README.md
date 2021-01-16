@@ -5,7 +5,8 @@ This package presents an autonomous system for singulating and picking thin prof
 
 <p align = "center">
 <img src="files/Github_Go_stone_pick.gif" width="360" height="202"> 
-<img src="files/Github_capsule_pick.gif" width="360" height="202"> 
+<img src="files/Github_capsule_pick.gif" width="360" height="202">
+<img src="files/domino.gif" width="360" height="202"> 
 </p>
 
 <p align = "center">
