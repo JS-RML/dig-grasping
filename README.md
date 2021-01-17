@@ -21,7 +21,7 @@ This package presents an autonomous system for singulating and picking thin prof
 - [**Universal Robot UR10**](https://www.universal-robots.com/products/ur10-robot/)
 - [**Robotiq 140mm Adaptive parallel-jaw gripper**](https://robotiq.com/products/2f85-140-adaptive-robot-gripper)
 - [**RealSense Camera SR300**](https://github.com/IntelRealSense/realsense-ros)
-- [**Customized Finger design**](https://github.com/HKUST-RML/dig-grasping/tree/master/fingertip%20design) features fingertip concavity.
+- [**Customized Finger design**](https://github.com/HKUST-RML/dig-grasping/tree/master/fingertip%20design) features fingertip concavity
 - [**Extendable Finger**](https://github.com/HKUST-RML/extendable_finger) for realizing finger length differences during digging
 - **Extendable Palm** developed in another package: Shallow-Depth Insertion (Dexterous Ungrasping). See the [link](https://github.com/HKUST-RML/shallow_depth_insertion) for detailed explanation
 
