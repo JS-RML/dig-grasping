@@ -36,7 +36,7 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04 
 **Note**: The online compiler [**Jupyter Notebook**](https://jupyter.org/) is needed to run our program.
 
 ## 3. Planar Quasistatic Pushing Simulator
-The simulator describes the finger-object interaction where the object is pushed by a position-controlled finger along a straight line. It is implemented in MATLAB. Right now the simulator is demoed with an elliptical or a rectangular object. Given initial pushing conditions - a initial contact position and an orientation of the line of pushing, the simulator will return the trace of the object being pushed, seen from an observer moving together with the finger. For more implementation details, please see the references [\[1\]](https://www.ri.cmu.edu/pub_files/pub2/lynch_kevin_1992_2/lynch_kevin_1992_2.pdf), [\[2\]](https://journals.sagepub.com/doi/pdf/10.1177/0278364918755536).
+The simulator describes the finger-object interaction where the object is pushed by a position-controlled finger along a straight line. It is implemented in MATLAB. Right now the simulator is demoed with an elliptical or a rectangular object. Given initial pushing conditions - a initial contact position and an orientation of the line of pushing, the simulator will return the trace of the object being pushed, seen from an observer moving together with the finger. For more details, please see the references [\[1\]](https://www.ri.cmu.edu/pub_files/pub2/lynch_kevin_1992_2/lynch_kevin_1992_2.pdf), [\[2\]](https://journals.sagepub.com/doi/pdf/10.1177/0278364918755536).
 
 To run the simulator, enter the folder ```pushing_simulator/elli``` or ```pushing_simulator/rect```,
 
