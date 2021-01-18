@@ -50,7 +50,7 @@ or
 push_rect_demo.m
 ```
 
-**Simulation Parameters**
+-**Simulation Parameters**
   -***a***: length of the object
   -***b***: width of the object
   -***N***: gravity of the object
