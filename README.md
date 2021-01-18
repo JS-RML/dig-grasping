@@ -35,7 +35,16 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04 
 
 **Note**: The online compiler [**Jupyter Notebook**](https://jupyter.org/) is needed to run our program.
 
-## 3. A Quick Start
+## 3. Planar Quasistatic Pushing Simulator
+The simulator describes the finger-object interaction where the object is pushed by a position-controlled finger along a straight line. It is implemented in MATLAB. Right now the object shape can be a ellipse (circle) or a rectangle (square). Given initial pushing conditions - a initial contact position and an orientation of the line of pushing, the simulator will return the trace of the object being pushed, seen from an observer moving together with the finger. For more implementation details, please see the references [\[1\]](https://www.ri.cmu.edu/pub_files/pub2/lynch_kevin_1992_2/lynch_kevin_1992_2.pdf)
+
+To run the simulator:
+```
+```
+
+
+
+## 4. A Quick Start of Real Experiments
 Create your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace):
 ```
 cd ~/catkin_ws/src
