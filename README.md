@@ -57,7 +57,7 @@ push_rect_demo.m
 a=0.046, b=0.012, N=0.02; mu_s=0.2, mu_c=0.8, psi=120, d=0.006
 
 <p align = "left">
-<img src="files/push_sim_demo.jpg" width="283" height="416"> 
+<img src="files/push_sim_demo.jpg" width="189" height="277"> 
 </p>
 
 
