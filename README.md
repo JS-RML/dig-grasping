@@ -50,14 +50,14 @@ or
 push_rect_demo.m
 ```
 
--**Simulation Parameters**
-  -***a***: length of the object
-  -***b***: width of the object
-  -***N***: gravity of the object
-  -***mu_s***: friction coefficient between the object and the supporting surface
-  -***mu_c***: friction coefficient between the object and the pushing finger
-  -***psi***: orientation of the line of pushing
-  -***d***: initial contact position
+### **Simulation Parameters**
+  - ***a***: length of the object
+  - ***b***: width of the object
+  - ***N***: gravity of the object
+  - ***mu_s***: friction coefficient between the object and the supporting surface
+  - ***mu_c***: friction coefficient between the object and the pushing finger
+  - ***psi***: orientation of the line of pushing
+  - ***d***: initial contact position
   
 
 **An example**
